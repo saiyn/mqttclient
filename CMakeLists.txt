@@ -8,8 +8,8 @@ set(INCDIRS "mqtt" "platform/linux" "common" "common/log" "network" "network/mbe
 set(OUTDIRS "build")
 set(LIBNAMES "mqtt" "platform" "network" "common" "salof" "mbedtls" "mqttclient")
 set(PROJECT_ROOT_PATH "${PROJECT_SOURCE_DIR}")
-set(LIBRARY_OUTPUT_PATH "${PROJECT_ROOT_PATH}/${OUTDIRS}/lib/")
-set(EXECUTABLE_OUTPUT_PATH "${PROJECT_ROOT_PATH}/${OUTDIRS}/bin/")
+#set(LIBRARY_OUTPUT_PATH "${PROJECT_ROOT_PATH}/${OUTDIRS}/lib/")
+#set(EXECUTABLE_OUTPUT_PATH "${PROJECT_ROOT_PATH}/${OUTDIRS}/bin/")
 
 set(CMAKE_BUILD_TYPE "Release")   # Debug Release
 set(CMAKE_LIB_TYPE "STATIC")   # SHARED STATIC
